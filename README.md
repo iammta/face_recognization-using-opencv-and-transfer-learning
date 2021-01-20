@@ -1,1 +1,2 @@
 # face_recognization-using-opencv-and-transfer-learning
+i used mobilenetv2 pretrained model for this project because i wanted a small model and less number of parametres as my dataset was very small.i collected face images of leo dicaprio and brad pitt using haar cascade face detector and opencv. i ran haar cascade face detector on videos of both stars to capture and store their faces. Then fine tuned mobilenetv2 and added some extra layers after it and trained it.
